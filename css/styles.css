@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  background-color: hsl(185, 75%, 39%);
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+h1{
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  letter-spacing: normal;
+}
+hr{
+  border-color: #dcdcdc;
+  border-style: solid;
+
+
+
+
+}
+span{
+  color: hsl(0, 0%, 59%);
+  padding-left: 10px;
+
+}
+.back-svgs{
+  position: absolute;
+  z-index: 1;
+
+}
+.main-box{
+  position: absolute;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width:auto;
+  height: auto;
+  left: 800px;
+  top: 300px;
+z-index: 3;
+border-radius: 20px;
+}
+.title{
+margin-top: 80px;
+margin-bottom: 40px;
+color:hsl(0, 0%, 59%)
+}
+.pat-img{
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.photo{
+
+  border-radius: 60px;
+  border-width: thick;
+  border-color: white;
+  border-style: solid;
+  display: flex;
+  position: absolute;
+  left: 155px;
+  top: 100px;
+  width: 100px;
+}
+
+.stats{
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+}
+.stats-pad{
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  color: hsl(0, 0%, 59%);
+  letter-spacing: 2px;
+}
